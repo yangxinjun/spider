@@ -7,8 +7,11 @@ import random
 import json
 import os
 import time as realtime
-import fetch_free_proxyes as fproxy
-import clean
+# import fetch_free_proxyes as fproxy
+from web.python.utils import fetch_free_proxyes as fproxy
+from web.mongo import mongoConnection
+#import clean
+from web.python.utils import clean
 import logging.config
 path = os.path.abspath(__file__).replace('\\','/').split('/')
 
@@ -19,7 +22,7 @@ logger = logging.getLogger("paper")
 #add sys.path
 import sys
 sys.path.append('/'.join(path[:-3]))
-from mongo import mongoConnection
+#from mongo import mongoConnection
 
 
 TIMEOUT = 4
@@ -203,7 +206,7 @@ def click(url,socketio=None,proxy=False):
 				
 				if papers is not None and papers != -1:
 					failed_tag = 0
-					logger.info('papers:'+papers['title'])
+					logger.info('papers111111:'+papers['title'])
 					if socketio:
 						socketio.emit('my_response',
 							{'data': 'papers:'+papers['title']},
@@ -213,6 +216,7 @@ def click(url,socketio=None,proxy=False):
 						papers['url'] = url
 						papers = clean.clean(papers) #按照规定格式格式化
 						mongo.collection.insert(papers)
+
 					except Exception as e:
 						logger.debug(e)
 						logger.debug(papers)
@@ -236,6 +240,7 @@ def auto_run(proccess_num=10):
 	results = pool.map(click, tasks)
 
 def main():
+
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-t','--type',dest='type')
 	parser.add_argument('-c','--content',dest='content')

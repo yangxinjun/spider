@@ -1,0 +1,3 @@
+Thu, 17 Aug 2017 15:00:33 test_log.py[line:6] DEBUG This is debug message
+Thu, 17 Aug 2017 15:00:33 test_log.py[line:7] INFO This is info message
+Thu, 17 Aug 2017 15:00:33 test_log.py[line:8] WARNING This is warning message

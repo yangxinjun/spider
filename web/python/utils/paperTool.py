@@ -1,5 +1,5 @@
 import sys,pprint
-from mongo import mongoConnection
+from web.mongo import mongoConnection
 
 def db_find(key):
 	wanFang = mongoConnection.mongoConnection()

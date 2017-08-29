@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from functions import *
+from web.python.utils.functions import *
 import json
 import time as realtime
 from datetime import datetime
@@ -149,12 +149,12 @@ def clean(line):
 		temp['journal'] = line['journal']
 		temp['date'] = __date_clean__(line['date'])
 		temp['abstract']['Chinese'] = line['abstract']
-
 		#Because of my stupid when crawl data,so have to do like this...
 		#   not notice that if there just have one institution record,spider return a str type,not a list..
 		if isinstance(line['institutions'],list):
 			for x in range(min(len(line['institutions']),len(line['authors']))):
 				institution = __institution_clean__(line['institutions'][x].encode("utf-8"), standard_names=standard_names)
+				# problem
 				locate = __location_clean__(line['institutions'][x].encode("utf-8"))
 				temp['authors'][line['authors'][x]] = {}
 				temp['authors'][line['authors'][x]]['institution'] = institution
@@ -164,7 +164,6 @@ def clean(line):
 			temp['authors'][line['authors'][0]] = {}
 			institution =  __institution_clean__(line['institutions'].encode("utf-8"), standard_names=standard_names)
 			locate = __location_clean__(line['institutions'].encode("utf-8"))
-
 			for x in line['authors']:
 				temp['authors'][x] = {}
 				temp['authors'][x]['institution'] = institution

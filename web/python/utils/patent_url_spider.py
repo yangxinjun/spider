@@ -3,10 +3,13 @@ from lxml import html
 import re,time,datetime
 from multiprocessing.dummy import Pool as ThreadPool	
 import argparse
-import fetch_free_proxyes as fproxy
+# import web.fetch_free_proxyes as fproxy
+from web.python.utils import fetch_free_proxyes as fproxy
 import random,os
-from patentSpider import FormData
+# from web.patentSpider import FormData
+from web.python.utils import patentSpider
 from bson.objectid import ObjectId
+from itertools import repeat
 URL = 'http://www.pss-system.gov.cn/sipopublicsearch/patentsearch/showSearchResult-startWa.shtml'
 #add sys.path
 import logging.config
@@ -18,7 +21,7 @@ logger = logging.getLogger("patent")
 #add sys.path
 import sys
 sys.path.append('/'.join(path[:-3]))
-from mongo import mongoConnection
+from web.mongo import mongoConnection
 TIMEOUT = 10
 def str2Num(string=""):
 	#把字符串转化为数字，'34534j34'=>3453434
@@ -31,10 +34,15 @@ def str2Num(string=""):
 
 def get_page_nums(url,form):
 	try:
+		logger.info("1111111")
 		response = requests.post(url, data=form)
+		logger.info("22222")
 		doc = html.fromstring(response.text)
+		logger.info("333333")
 		total_num = doc.xpath('//input[@id="result_totalCount"]/@value')[0]
+		logger.info("44444444")
 		total_num = str2Num(total_num)
+		logger.info("555555")
 		return total_num
 	except Exception as e:
 		logger.debug("Error:total page number get failed")
@@ -115,7 +123,7 @@ def form_produce(content,page = None):
 	if content.get('insititution'):
 		format_str.append('申请（专利权）人=('+content.get('insititution')+')')
 	format_str = " AND ".join(format_str)
-	form = FormData(format_str)
+	form = patentSpider.FormData(format_str)
 	if page:
 		form.resultPagination_start = page
 	return form.get_form()
@@ -173,6 +181,7 @@ def click(url,content,socketio=None,proxy=False):
 		failed_tag = 0
 		if patents!= -1:
 			try:
+				print("1111111111111    ")
 				for x in patents['titles']:
 					logger.info('title:'+x)
 					if socketio:

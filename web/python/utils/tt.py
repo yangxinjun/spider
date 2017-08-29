@@ -1,14 +1,15 @@
 # -*- coding:utf8 -*-
 # from mongo import mongoConnection
 
-from spider import urlSpider
+from web.python.utils.spider import urlSpider
 import requests
 from lxml import html
 import re,time,datetime
 from multiprocessing.dummy import Pool as ThreadPool  
 import argparse
 import os
-from iqiyi import *
+from web.python.utils.iqiyi import *
+
 
 
 #add sys.path

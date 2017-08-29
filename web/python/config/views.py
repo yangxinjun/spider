@@ -111,6 +111,7 @@ def check_note():
 def congif_file():
 	print("nihao")
 	Basedir=os.path.abspath('.')
+	print(Basedir)
 	filename = Basedir+"/../"+"config.conf"
 	f = open(filename, "w")
 	print(filename)

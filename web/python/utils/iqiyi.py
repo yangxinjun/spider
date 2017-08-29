@@ -2,7 +2,8 @@ import requests
 from lxml import html
 import re,time,datetime
 import argparse
-import fetch_free_proxyes as fproxy
+# import fetch_free_proxyes as fproxy
+from web.python.utils import fetch_free_proxyes as fproxy
 import random,os
 from bson.objectid import ObjectId
 
@@ -16,7 +17,7 @@ logger = logging.getLogger("video")
 #add sys.path
 import sys
 sys.path.append('/'.join(path[:-3]))
-from mongo import mongoConnection
+from web.mongo import mongoConnection
 
 patt = 'http://so.iqiyi.com/so/q_{content}_ctg__t_{length}_page_{pagenum}_p_1_qc_0_rd_{time_limt}_site_{site}_m_1_bitrate_?af=true'
 def build_url(content,site,time_limt='level0',length='level1',pagenum=1):
@@ -71,15 +72,25 @@ def get_page_info(content,site,time_limt='level0',length='level1',pagenum=1):
 def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 	mongoDB = mongoConnection.mongoConnection(db='video',collection='spider')
 	data = list(mongoDB.collection.find({'content':content,'site':site},{'time_limit':1,'_id':0,'length':1}))[0]
+	# data = mongoDB.collection.find({'content': content, 'site': site})
 	print(data)
 	page_num = get_page_nums(content,site,time_limt=data['time_limit'],length=data['length'])
+	print(page_num)
+	print("1111111")
 	if socketio:socketio.emit('my_response', {'data': '总数为:'+str(page_num)},namespace='/video')
+	print("2222")
 	page_num = min((page_num+19)//20,20)
+	print("2222")
+	print(page_num)
 	mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
+	print("222211111")
 	for index in range(1,page_num+1):
+		print("2222")
 		result = get_page_info(content,site,time_limt=data['time_limit'],length=data['length'],pagenum=index)
+		print("2222")
 		if socketio:
 			for line in result:
+				print("2222")
 				socketio.emit('my_response',  
 					{'data': 'Currently crawling title is: '+line['videoname']},
 					namespace='/video')
@@ -98,9 +109,9 @@ def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 
 
 if __name__ == '__main__':
-	result = get_page_info('时间规划局','cntv')
+	result = get_page_info('金正恩','souhu')
 	print(len(result))
-	iqiyi_url_spider('时间规划局','cntv')
+	iqiyi_url_spider('金正恩','souhu')
 	# print(result)
 
 

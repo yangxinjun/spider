@@ -5,7 +5,14 @@ import json
 import random
 import sys,os
 import logging
-
+import copy
+from multiprocessing.dummy import Pool as ThreadPool
+from web.python.utils import fetch_free_proxyes as fproxy
+from web.mongo import mongoConnection
+import web.python.utils.patent_url_spider as patent
+from itertools import repeat
+import threading
+import subprocess
 
 class urlSpider(object):
 	"""base class"""
@@ -55,12 +62,12 @@ def click(url,content,form,db,collection,proxies=False):
 		proxies = [None]
 	mongo = mongoConnection.mongoConnection(db=db,collection=collection)
 	i = 1
-	while i<= num:
+	while i<= patent.num:
 		failed_tag = 0
 		attempt = 0
-		form = form_produce(content,i)
+		form = patent.form_produce(content,i)
 		proxie = random.choice(proxies)
-		patents = get_patent(url,form,proxie)
+		patents = patent.get_patent(url,form,proxie)
 		while patents is None:
 			logging.debug('失败次数为：',attempt+1,failed_tag)
 			failed_tag +=1
@@ -74,14 +81,14 @@ def click(url,content,form,db,collection,proxies=False):
 				proxies = [{'http':'http://'+x} for x in proxies]
 			proxie = random.choice(proxies)
 			# print('新换ip代理为：',proxie)
-			patents = get_patent(url,form,proxie)
+			patents = patent.get_patent(url,form,proxie)
 		
 		failed_tag = 0
 		if patents!= -1:
 			try:
 				for x in patents['titles']:
 					logging.info('title:',x)
-				store(patents,str(content['_id']))
+				patent.store(patents,str(content['_id']))
 			except Exception as e:
 				logging.debug(e)
 				logging.debug('插入数据库失败...')
@@ -95,7 +102,7 @@ def get_paper(url, proxie, **kwarg):
 	'''
 	item = {}
 	#random choice proxies
-	proxie = random.choice(proxies)
+	proxie = random.choice(fproxy.proxies)
 	response = requests.get(url, proxies=proxie)
 	#if reaponse's statuts_code !=200,means that access failed
 	if response.status_code!=200:

@@ -2,7 +2,7 @@
 import json
 import sys
 sys.path.append('/home/zjun/Desktop/www/spider/web')
-from mongo import mongoConnection
+from web.mongo import mongoConnection
 # import jieba
 import chardet
 

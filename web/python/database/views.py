@@ -1,4 +1,4 @@
-
+from web import app
 def init_app(app):
 
 	return app

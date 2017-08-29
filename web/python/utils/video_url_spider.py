@@ -1,14 +1,14 @@
 # -*- coding:utf8 -*-
 # from mongo import mongoConnection
 
-from spider import urlSpider
+from web.python.utils.spider import urlSpider
 import requests
 from lxml import html
 import re,time,datetime
 from multiprocessing.dummy import Pool as ThreadPool	
 import argparse
 import os
-from iqiyi import *
+from web.python.utils.iqiyi import *
 
 
 #add sys.path
@@ -21,7 +21,7 @@ logger = logging.getLogger("video")
 #add sys.path
 import sys
 sys.path.append('/'.join(path[:-3]))
-from mongo import mongoConnection
+from web.mongo import mongoConnection
 
 
 
@@ -128,8 +128,8 @@ def get_bilibili_info(args,socketio=None):
 	
 
 def bilibili_url_spider(content,socketio=None):
-	patt = "http://search.bilibili.com/ajax_api/video?keyword={content}&page={page}&duration={duration}"
-	patt_para = {'content':content, 'page':'1', 'duration':"1"}
+	patt = "http://search.bilibili.com/ajax_api/video?keyword={content}&page={page}&"#duration={duration}"
+	patt_para = {'content':content, 'page':'1'}#, 'duration':"1"}
 	spider = urlSpider(patt, patt_para)
 	page_num_code = spider.get_page_num(get_bilibili_pagenums)
 	# print (spider.__pagenums)
@@ -185,8 +185,8 @@ def sina_url_spider(content,socketio=None):
 		#creat all page url
 		urls = [patt.format(content=content, page=str(x+1)) for x in range((int(total_num)+19)//20)]
 		if socketio:
-		 	for url in urls:
-		 	 	get_info(url) 
+			for url in urls:
+				get_info(url)
 		else:
 			pool = ThreadPool(thread_num)
 			results = pool.map(get_info, urls)

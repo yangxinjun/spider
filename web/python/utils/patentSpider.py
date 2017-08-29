@@ -1,5 +1,5 @@
 import requests,sys,os
-import spider
+import web.python.utils.spider
 import re
 from lxml import html
 import logging
@@ -36,6 +36,8 @@ def test():
 	#new request
 	re_html = re.compile('<.*?>')
 	url = 'http://www.pss-system.gov.cn/sipopublicsearch/patentsearch/showSearchResult-startWa.shtml'
+	# url  = 'http://www.pss-system.gov.cn/sipopublicsearch/portal/uiIndex.shtml'
+	# url = "http://www.pss-system.gov.cn/sipopublicsearch/patentsearch/showSearchResult-drillSearchByViewSetting.shtml"
 	form = FormData('申请（专利权）人=(吉林大学) AND 发明名称=(雷达)').get_form()
 	response = requests.post(url, data=form)
 	doc = html.fromstring(response.text)

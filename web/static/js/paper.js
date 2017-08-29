@@ -100,7 +100,7 @@ $(document).ready(function() {
         var data = table.row($(this).parents('tr')).data()
         $('#log').html("");
         $('#log').append('<p>' + $('<div/>').text('任务开始：').html());
-        log_socket(data['url']);
+        log_socket(data['url'])
 
     });
 

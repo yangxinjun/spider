@@ -1,0 +1,365 @@
+Mon, 21 Aug 2017 10:49:23 paper_url_spider.py[line:155] INFO 免费代理获取中  
+这可能花费几分钟，请稍后...
+Mon, 21 Aug 2017 10:49:24 paper_url_spider.py[line:166] INFO 免费代理获取完毕，总共1条。
+Mon, 21 Aug 2017 10:49:27 paper_url_spider.py[line:173] INFO 16
+Mon, 21 Aug 2017 10:49:28 paper_url_spider.py[line:206] INFO papers:叙利亚阿萨德时期威权主义与政治稳定探析
+Mon, 21 Aug 2017 10:49:29 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:29 clean.py[line:177] DEBUG {'include': ['ISTIC', 'PKU', 'CSSCI'], 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'journal': '西北大学学报（哲学社会科学版）', 'abstract': {'Chinese': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.'}, 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'spidertime': '2017-08-21 10:49:28', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'quote': 0, 'authors': {'王新刚': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2016'}}
+Mon, 21 Aug 2017 10:49:29 clean.py[line:178] DEBUG {'include': ['ISTIC', 'PKU', 'CSSCI'], 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'journal': '西北大学学报（哲学社会科学版）', 'abstract': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.', 'spidertime': '2017-08-21 10:49:28', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'authors': ['王新刚', '马帅'], 'quote': 0, 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'institutions': '西北大学历史学院,陕西西安,710069', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2016, 46(3)'}
+Mon, 21 Aug 2017 10:49:29 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:29 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:29 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:30 paper_url_spider.py[line:206] INFO papers:阿拉伯复兴社会党及其理论与实践
+Mon, 21 Aug 2017 10:49:31 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:31 clean.py[line:177] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿拉伯复兴社会党及其理论与实践', 'journal': '西北大学学报(哲学社会科学版)', 'abstract': {'Chinese': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.'}, 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'spidertime': '2017-08-21 10:49:30', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'quote': 3, 'authors': {'王新刚': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2002'}}
+Mon, 21 Aug 2017 10:49:31 clean.py[line:178] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿拉伯复兴社会党及其理论与实践', 'journal': '西北大学学报(哲学社会科学版)', 'abstract': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.', 'spidertime': '2017-08-21 10:49:30', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'authors': ['王新刚'], 'quote': 3, 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'institutions': '西北大学,中东研究所,陕西,西安,710069', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2002, 32(3)'}
+Mon, 21 Aug 2017 10:49:31 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:31 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:31 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:31 paper_url_spider.py[line:206] INFO papers:后殖民理论视域下的宗教学研究
+Mon, 21 Aug 2017 10:49:32 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:32 clean.py[line:177] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '后殖民理论视域下的宗教学研究', 'journal': '复旦学报（社会科学版）', 'abstract': {'Chinese': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.'}, 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'spidertime': '2017-08-21 10:49:31', 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'quote': 1, 'authors': {'朱晓红': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '5', 'year': '2011'}}
+Mon, 21 Aug 2017 10:49:32 clean.py[line:178] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '后殖民理论视域下的宗教学研究', 'journal': '复旦学报（社会科学版）', 'abstract': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.', 'spidertime': '2017-08-21 10:49:31', 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'authors': ['朱晓红'], 'quote': 1, 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'institutions': '复旦大学哲学学院,上海,200433', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2011, (5)'}
+Mon, 21 Aug 2017 10:49:32 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:32 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:32 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:32 paper_url_spider.py[line:206] INFO papers:试析叙利亚泛阿拉伯民族主义的演变
+Mon, 21 Aug 2017 10:49:33 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:33 clean.py[line:177] DEBUG {'include': ['CSSCI'], 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'journal': '阿拉伯世界', 'abstract': {'Chinese': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.'}, 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'spidertime': '2017-08-21 10:49:32', 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'quote': 4, 'authors': {'赵克仁': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2000'}}
+Mon, 21 Aug 2017 10:49:33 clean.py[line:178] DEBUG {'include': ['CSSCI'], 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'journal': '阿拉伯世界', 'abstract': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.', 'spidertime': '2017-08-21 10:49:32', 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'authors': ['赵克仁'], 'quote': 4, 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'institutions': 'D371', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2000, (3)'}
+Mon, 21 Aug 2017 10:49:33 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:33 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:33 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:33 paper_url_spider.py[line:206] INFO papers:阿萨德政治体制简析
+Mon, 21 Aug 2017 10:49:34 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:34 clean.py[line:177] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿萨德政治体制简析', 'journal': '西亚非洲', 'abstract': {'Chinese': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.'}, 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'spidertime': '2017-08-21 10:49:33', 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'quote': 2, 'authors': {'王希': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2003'}}
+Mon, 21 Aug 2017 10:49:34 clean.py[line:178] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿萨德政治体制简析', 'journal': '西亚非洲', 'abstract': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.', 'spidertime': '2017-08-21 10:49:33', 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'authors': ['王希'], 'quote': 2, 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'institutions': '中国社会科学院世界历史研究所', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2003, (3)'}
+Mon, 21 Aug 2017 10:49:34 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:34 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:34 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:34 paper_url_spider.py[line:206] INFO papers:现代叙利亚政治体制的发展演变
+Mon, 21 Aug 2017 10:49:35 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:35 clean.py[line:177] DEBUG {'include': None, 'title': '现代叙利亚政治体制的发展演变', 'journal': '内蒙古民族大学学报', 'abstract': {'Chinese': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.'}, 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'spidertime': '2017-08-21 10:49:34', 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'quote': 0, 'authors': {'王振宁': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '6', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:35 clean.py[line:178] DEBUG {'include': [], 'title': '现代叙利亚政治体制的发展演变', 'journal': '内蒙古民族大学学报', 'abstract': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.', 'spidertime': '2017-08-21 10:49:34', 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'authors': ['王振宁'], 'quote': 0, 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'institutions': '内蒙古民族大学政法与历史学院,内蒙古通辽,028043', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, 18(6)'}
+Mon, 21 Aug 2017 10:49:35 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:35 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:35 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:35 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:35 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:35 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:35 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:36 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:36 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:36 paper_url_spider.py[line:206] INFO papers:狮与熊：英俄悄悄搭建隐形G2
+Mon, 21 Aug 2017 10:49:37 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:37 clean.py[line:177] DEBUG {'include': None, 'title': '狮与熊：英俄悄悄搭建隐形G2', 'journal': '环球财经', 'abstract': {'Chinese': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。'}, 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'spidertime': '2017-08-21 10:49:36', 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'quote': 0, 'authors': {'应辰': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '7', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:37 clean.py[line:178] DEBUG {'include': [], 'title': '狮与熊：英俄悄悄搭建隐形G2', 'journal': '环球财经', 'abstract': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。', 'spidertime': '2017-08-21 10:49:36', 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'authors': ['应辰'], 'quote': 0, 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, (7)'}
+Mon, 21 Aug 2017 10:49:37 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:37 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:37 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:37 paper_url_spider.py[line:206] INFO papers:叙利亚青年争当“逃兵”
+Mon, 21 Aug 2017 10:49:38 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:38 clean.py[line:177] DEBUG {'include': None, 'title': '叙利亚青年争当“逃兵”', 'journal': '世界博览', 'abstract': {'Chinese': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。'}, 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'spidertime': '2017-08-21 10:49:37', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'quote': 0, 'authors': {'李洪声': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '12', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:38 clean.py[line:178] DEBUG {'include': [], 'title': '叙利亚青年争当“逃兵”', 'journal': '世界博览', 'abstract': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。', 'spidertime': '2017-08-21 10:49:37', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'authors': ['李洪声'], 'quote': 0, 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, (12)'}
+Mon, 21 Aug 2017 10:49:38 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:38 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:38 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:38 paper_url_spider.py[line:206] INFO papers:西方国家为何不向叙利亚动武？
+Mon, 21 Aug 2017 10:49:39 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:39 clean.py[line:177] DEBUG {'include': None, 'title': '西方国家为何不向叙利亚动武？', 'journal': '中国经济周刊', 'abstract': {'Chinese': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。'}, 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'spidertime': '2017-08-21 10:49:38', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'quote': 0, 'authors': {'周二权': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '15', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:39 clean.py[line:178] DEBUG {'include': [], 'title': '西方国家为何不向叙利亚动武？', 'journal': '中国经济周刊', 'abstract': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。', 'spidertime': '2017-08-21 10:49:38', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'authors': ['周二权'], 'quote': 0, 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, (15)'}
+Mon, 21 Aug 2017 10:49:39 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:39 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:39 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:40 paper_url_spider.py[line:206] INFO papers:叙利亚阿萨德时期威权主义与政治稳定探析
+Mon, 21 Aug 2017 10:49:41 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:41 clean.py[line:177] DEBUG {'include': ['ISTIC', 'PKU', 'CSSCI'], 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'journal': '西北大学学报（哲学社会科学版）', 'abstract': {'Chinese': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.'}, 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'spidertime': '2017-08-21 10:49:40', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'quote': 0, 'authors': {'王新刚': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2016'}}
+Mon, 21 Aug 2017 10:49:41 clean.py[line:178] DEBUG {'include': ['ISTIC', 'PKU', 'CSSCI'], 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'journal': '西北大学学报（哲学社会科学版）', 'abstract': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.', 'spidertime': '2017-08-21 10:49:40', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'authors': ['王新刚', '马帅'], 'quote': 0, 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'institutions': '西北大学历史学院,陕西西安,710069', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2016, 46(3)'}
+Mon, 21 Aug 2017 10:49:41 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:41 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:41 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:41 paper_url_spider.py[line:206] INFO papers:阿拉伯复兴社会党及其理论与实践
+Mon, 21 Aug 2017 10:49:42 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:42 clean.py[line:177] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿拉伯复兴社会党及其理论与实践', 'journal': '西北大学学报(哲学社会科学版)', 'abstract': {'Chinese': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.'}, 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'spidertime': '2017-08-21 10:49:41', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'quote': 3, 'authors': {'王新刚': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2002'}}
+Mon, 21 Aug 2017 10:49:42 clean.py[line:178] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿拉伯复兴社会党及其理论与实践', 'journal': '西北大学学报(哲学社会科学版)', 'abstract': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.', 'spidertime': '2017-08-21 10:49:41', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'authors': ['王新刚'], 'quote': 3, 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'institutions': '西北大学,中东研究所,陕西,西安,710069', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2002, 32(3)'}
+Mon, 21 Aug 2017 10:49:42 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:42 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:42 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:43 paper_url_spider.py[line:206] INFO papers:后殖民理论视域下的宗教学研究
+Mon, 21 Aug 2017 10:49:44 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:44 clean.py[line:177] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '后殖民理论视域下的宗教学研究', 'journal': '复旦学报（社会科学版）', 'abstract': {'Chinese': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.'}, 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'spidertime': '2017-08-21 10:49:43', 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'quote': 1, 'authors': {'朱晓红': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '5', 'year': '2011'}}
+Mon, 21 Aug 2017 10:49:44 clean.py[line:178] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '后殖民理论视域下的宗教学研究', 'journal': '复旦学报（社会科学版）', 'abstract': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.', 'spidertime': '2017-08-21 10:49:43', 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'authors': ['朱晓红'], 'quote': 1, 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'institutions': '复旦大学哲学学院,上海,200433', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2011, (5)'}
+Mon, 21 Aug 2017 10:49:44 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:44 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:44 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:44 paper_url_spider.py[line:206] INFO papers:试析叙利亚泛阿拉伯民族主义的演变
+Mon, 21 Aug 2017 10:49:45 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:45 clean.py[line:177] DEBUG {'include': ['CSSCI'], 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'journal': '阿拉伯世界', 'abstract': {'Chinese': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.'}, 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'spidertime': '2017-08-21 10:49:44', 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'quote': 4, 'authors': {'赵克仁': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2000'}}
+Mon, 21 Aug 2017 10:49:45 clean.py[line:178] DEBUG {'include': ['CSSCI'], 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'journal': '阿拉伯世界', 'abstract': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.', 'spidertime': '2017-08-21 10:49:44', 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'authors': ['赵克仁'], 'quote': 4, 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'institutions': 'D371', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2000, (3)'}
+Mon, 21 Aug 2017 10:49:45 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:45 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:45 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:45 paper_url_spider.py[line:206] INFO papers:阿萨德政治体制简析
+Mon, 21 Aug 2017 10:49:46 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:46 clean.py[line:177] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿萨德政治体制简析', 'journal': '西亚非洲', 'abstract': {'Chinese': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.'}, 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'spidertime': '2017-08-21 10:49:45', 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'quote': 2, 'authors': {'王希': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '3', 'year': '2003'}}
+Mon, 21 Aug 2017 10:49:46 clean.py[line:178] DEBUG {'include': ['PKU', 'CSSCI'], 'title': '阿萨德政治体制简析', 'journal': '西亚非洲', 'abstract': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.', 'spidertime': '2017-08-21 10:49:45', 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'authors': ['王希'], 'quote': 2, 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'institutions': '中国社会科学院世界历史研究所', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2003, (3)'}
+Mon, 21 Aug 2017 10:49:46 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:46 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:46 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:46 paper_url_spider.py[line:206] INFO papers:现代叙利亚政治体制的发展演变
+Mon, 21 Aug 2017 10:49:47 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:47 clean.py[line:177] DEBUG {'include': None, 'title': '现代叙利亚政治体制的发展演变', 'journal': '内蒙古民族大学学报', 'abstract': {'Chinese': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.'}, 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'spidertime': '2017-08-21 10:49:46', 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'quote': 0, 'authors': {'王振宁': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '6', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:47 clean.py[line:178] DEBUG {'include': [], 'title': '现代叙利亚政治体制的发展演变', 'journal': '内蒙古民族大学学报', 'abstract': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.', 'spidertime': '2017-08-21 10:49:46', 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'authors': ['王振宁'], 'quote': 0, 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'institutions': '内蒙古民族大学政法与历史学院,内蒙古通辽,028043', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, 18(6)'}
+Mon, 21 Aug 2017 10:49:47 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:47 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:47 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:48 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:48 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:48 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:48 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:48 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:48 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:48 paper_url_spider.py[line:206] INFO papers:狮与熊：英俄悄悄搭建隐形G2
+Mon, 21 Aug 2017 10:49:49 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:49 clean.py[line:177] DEBUG {'include': None, 'title': '狮与熊：英俄悄悄搭建隐形G2', 'journal': '环球财经', 'abstract': {'Chinese': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。'}, 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'spidertime': '2017-08-21 10:49:48', 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'quote': 0, 'authors': {'应辰': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '7', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:49 clean.py[line:178] DEBUG {'include': [], 'title': '狮与熊：英俄悄悄搭建隐形G2', 'journal': '环球财经', 'abstract': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。', 'spidertime': '2017-08-21 10:49:48', 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'authors': ['应辰'], 'quote': 0, 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, (7)'}
+Mon, 21 Aug 2017 10:49:49 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:49 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:49 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:49 paper_url_spider.py[line:206] INFO papers:叙利亚青年争当“逃兵”
+Mon, 21 Aug 2017 10:49:50 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:50 clean.py[line:177] DEBUG {'include': None, 'title': '叙利亚青年争当“逃兵”', 'journal': '世界博览', 'abstract': {'Chinese': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。'}, 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'spidertime': '2017-08-21 10:49:49', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'quote': 0, 'authors': {'李洪声': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '12', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:50 clean.py[line:178] DEBUG {'include': [], 'title': '叙利亚青年争当“逃兵”', 'journal': '世界博览', 'abstract': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。', 'spidertime': '2017-08-21 10:49:49', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'authors': ['李洪声'], 'quote': 0, 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, (12)'}
+Mon, 21 Aug 2017 10:49:50 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:50 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:50 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:51 paper_url_spider.py[line:206] INFO papers:西方国家为何不向叙利亚动武？
+Mon, 21 Aug 2017 10:49:52 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:52 clean.py[line:177] DEBUG {'include': None, 'title': '西方国家为何不向叙利亚动武？', 'journal': '中国经济周刊', 'abstract': {'Chinese': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。'}, 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'spidertime': '2017-08-21 10:49:51', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'quote': 0, 'authors': {'周二权': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '15', 'year': '2012'}}
+Mon, 21 Aug 2017 10:49:52 clean.py[line:178] DEBUG {'include': [], 'title': '西方国家为何不向叙利亚动武？', 'journal': '中国经济周刊', 'abstract': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。', 'spidertime': '2017-08-21 10:49:51', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'authors': ['周二权'], 'quote': 0, 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2012, (15)'}
+Mon, 21 Aug 2017 10:49:52 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:52 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:52 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:49:56 paper_url_spider.py[line:81] DEBUG 页面信息解析失败
+Mon, 21 Aug 2017 10:49:56 paper_url_spider.py[line:82] DEBUG HTTPConnectionPool(host='s.wanfangdata.com.cn', port=80): Read timed out. (read timeout=4)
+Mon, 21 Aug 2017 10:49:58 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:58 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:58 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:58 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:58 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:49:58 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:49:58 paper_url_spider.py[line:206] INFO papers:孤城叙利亚“：总统滚蛋”不重要
+Mon, 21 Aug 2017 10:49:59 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:49:59 clean.py[line:177] DEBUG {'include': None, 'title': '孤城叙利亚“：总统滚蛋”不重要', 'journal': '中国经济周刊', 'abstract': {'Chinese': '从3月18日叙利亚军警在德拉省逮捕涂写抗议标语的中学生开始,一直强大无比的执政党复兴社会党和拥众20万的叙利亚军队已经声誉扫地、面目可憎。举目四望,叙利亚已经是海湾孤城。总统巴沙尔·阿萨德困顿于大马士革形若囚徒：所谓＂战斗到死＂,究竟缘于勇敢还是恐惧,又有谁能分得清呢？今天的叙利亚政府,除了伊朗和俄罗斯的有限支持外,'}, 'keywords': ['叙利亚', '总统', '复兴社会党', '大马士革', '中学生', '执政党', '阿萨德', '巴沙尔'], 'spidertime': '2017-08-21 10:49:58', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201146013', 'quote': 0, 'authors': {'于海洋': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '46', 'year': '2011'}}
+Mon, 21 Aug 2017 10:49:59 clean.py[line:178] DEBUG {'include': [], 'title': '孤城叙利亚“：总统滚蛋”不重要', 'journal': '中国经济周刊', 'abstract': '从3月18日叙利亚军警在德拉省逮捕涂写抗议标语的中学生开始,一直强大无比的执政党复兴社会党和拥众20万的叙利亚军队已经声誉扫地、面目可憎。举目四望,叙利亚已经是海湾孤城。总统巴沙尔·阿萨德困顿于大马士革形若囚徒：所谓＂战斗到死＂,究竟缘于勇敢还是恐惧,又有谁能分得清呢？今天的叙利亚政府,除了伊朗和俄罗斯的有限支持外,', 'spidertime': '2017-08-21 10:49:58', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201146013', 'authors': ['于海洋'], 'quote': 0, 'keywords': ['叙利亚', '总统', '复兴社会党', '大马士革', '中学生', '执政党', '阿萨德', '巴沙尔'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2011, (46)'}
+Mon, 21 Aug 2017 10:49:59 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:49:59 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:49:59 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:50:03 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:03 paper_url_spider.py[line:151] DEBUG HTTPConnectionPool(host='d.wanfangdata.com.cn', port=80): Read timed out. (read timeout=4)
+Mon, 21 Aug 2017 10:50:04 paper_url_spider.py[line:206] INFO papers:叙利亚：未来向何处去
+Mon, 21 Aug 2017 10:50:05 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 10:50:05 clean.py[line:177] DEBUG {'include': None, 'title': '叙利亚：未来向何处去', 'journal': '世界博览', 'abstract': {'Chinese': '10月4日，联合国安理会投票表决由法英美葡德五国提出的、针对叙利亚阿萨德政权的谴责决议，因俄罗斯与中国行使否决权而未能通过。除俄中两国外，巴西、印度、南非、黎巴嫩均投了弃权票。'}, 'keywords': ['叙利亚', '联合国安理会', '投票表决', '阿萨德', '否决权', '俄罗斯', '弃权票', '黎巴嫩'], 'spidertime': '2017-08-21 10:50:04', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201120010', 'quote': 0, 'authors': {'陶短房': {}}, 'institutions': {}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': {'period': '20', 'year': '2011'}}
+Mon, 21 Aug 2017 10:50:05 clean.py[line:178] DEBUG {'include': [], 'title': '叙利亚：未来向何处去', 'journal': '世界博览', 'abstract': '10月4日，联合国安理会投票表决由法英美葡德五国提出的、针对叙利亚阿萨德政权的谴责决议，因俄罗斯与中国行使否决权而未能通过。除俄中两国外，巴西、印度、南非、黎巴嫩均投了弃权票。', 'spidertime': '2017-08-21 10:50:04', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201120010', 'authors': ['陶短房'], 'quote': 0, 'keywords': ['叙利亚', '联合国安理会', '投票表决', '阿萨德', '否决权', '俄罗斯', '弃权票', '黎巴嫩'], 'institutions': '不详', 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'date': '2011, (20)'}
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:218] DEBUG None
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:219] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:05 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 10:50:06 paper_url_spider.py[line:151] DEBUG list index out of range
+Mon, 21 Aug 2017 12:51:08 paper_url_spider.py[line:252] INFO Success: Task update finshed..
+Mon, 21 Aug 2017 12:52:43 paper_url_spider.py[line:158] INFO 免费代理获取中  
+这可能花费几分钟，请稍后...
+Mon, 21 Aug 2017 12:52:44 paper_url_spider.py[line:169] INFO 免费代理获取完毕，总共1条。
+Mon, 21 Aug 2017 12:52:46 paper_url_spider.py[line:176] INFO 16
+Mon, 21 Aug 2017 12:52:51 paper_url_spider.py[line:209] INFO papers:叙利亚阿萨德时期威权主义与政治稳定探析
+Mon, 21 Aug 2017 12:52:52 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:52:52 clean.py[line:177] DEBUG {'date': {'year': '2016', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:52:51', 'abstract': {'Chinese': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.'}, 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'authors': {'王新刚': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'include': ['ISTIC', 'PKU', 'CSSCI'], 'journal': '西北大学学报（哲学社会科学版）'}
+Mon, 21 Aug 2017 12:52:52 clean.py[line:178] DEBUG {'abstract': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'institutions': '西北大学历史学院,陕西西安,710069', 'quote': 0, 'spidertime': '2017-08-21 12:52:51', 'date': '2016, 46(3)', 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'authors': ['王新刚', '马帅'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'include': ['ISTIC', 'PKU', 'CSSCI'], 'journal': '西北大学学报（哲学社会科学版）'}
+Mon, 21 Aug 2017 12:52:52 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:52:52 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:52:52 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:52:52 paper_url_spider.py[line:209] INFO papers:阿拉伯复兴社会党及其理论与实践
+Mon, 21 Aug 2017 12:52:53 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:52:53 clean.py[line:177] DEBUG {'date': {'year': '2002', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'institutions': {}, 'quote': 3, 'spidertime': '2017-08-21 12:52:52', 'abstract': {'Chinese': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.'}, 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'authors': {'王新刚': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿拉伯复兴社会党及其理论与实践', 'include': ['PKU', 'CSSCI'], 'journal': '西北大学学报(哲学社会科学版)'}
+Mon, 21 Aug 2017 12:52:53 clean.py[line:178] DEBUG {'abstract': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'institutions': '西北大学,中东研究所,陕西,西安,710069', 'quote': 3, 'spidertime': '2017-08-21 12:52:52', 'date': '2002, 32(3)', 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'authors': ['王新刚'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿拉伯复兴社会党及其理论与实践', 'include': ['PKU', 'CSSCI'], 'journal': '西北大学学报(哲学社会科学版)'}
+Mon, 21 Aug 2017 12:52:53 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:52:53 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:52:53 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:52:53 paper_url_spider.py[line:209] INFO papers:后殖民理论视域下的宗教学研究
+Mon, 21 Aug 2017 12:52:54 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:52:54 clean.py[line:177] DEBUG {'date': {'year': '2011', 'period': '5'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'institutions': {}, 'quote': 1, 'spidertime': '2017-08-21 12:52:53', 'abstract': {'Chinese': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.'}, 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'authors': {'朱晓红': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '后殖民理论视域下的宗教学研究', 'include': ['PKU', 'CSSCI'], 'journal': '复旦学报（社会科学版）'}
+Mon, 21 Aug 2017 12:52:54 clean.py[line:178] DEBUG {'abstract': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.', 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'institutions': '复旦大学哲学学院,上海,200433', 'quote': 1, 'spidertime': '2017-08-21 12:52:53', 'date': '2011, (5)', 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'authors': ['朱晓红'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '后殖民理论视域下的宗教学研究', 'include': ['PKU', 'CSSCI'], 'journal': '复旦学报（社会科学版）'}
+Mon, 21 Aug 2017 12:52:54 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:52:54 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:52:54 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:52:55 paper_url_spider.py[line:209] INFO papers:试析叙利亚泛阿拉伯民族主义的演变
+Mon, 21 Aug 2017 12:52:56 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:52:56 clean.py[line:177] DEBUG {'date': {'year': '2000', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'institutions': {}, 'quote': 4, 'spidertime': '2017-08-21 12:52:55', 'abstract': {'Chinese': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.'}, 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'authors': {'赵克仁': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'include': ['CSSCI'], 'journal': '阿拉伯世界'}
+Mon, 21 Aug 2017 12:52:56 clean.py[line:178] DEBUG {'abstract': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.', 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'institutions': 'D371', 'quote': 4, 'spidertime': '2017-08-21 12:52:55', 'date': '2000, (3)', 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'authors': ['赵克仁'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'include': ['CSSCI'], 'journal': '阿拉伯世界'}
+Mon, 21 Aug 2017 12:52:56 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:52:56 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:52:56 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:52:56 paper_url_spider.py[line:209] INFO papers:阿萨德政治体制简析
+Mon, 21 Aug 2017 12:52:57 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:52:57 clean.py[line:177] DEBUG {'date': {'year': '2003', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'institutions': {}, 'quote': 2, 'spidertime': '2017-08-21 12:52:56', 'abstract': {'Chinese': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.'}, 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'authors': {'王希': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿萨德政治体制简析', 'include': ['PKU', 'CSSCI'], 'journal': '西亚非洲'}
+Mon, 21 Aug 2017 12:52:57 clean.py[line:178] DEBUG {'abstract': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.', 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'institutions': '中国社会科学院世界历史研究所', 'quote': 2, 'spidertime': '2017-08-21 12:52:56', 'date': '2003, (3)', 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'authors': ['王希'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿萨德政治体制简析', 'include': ['PKU', 'CSSCI'], 'journal': '西亚非洲'}
+Mon, 21 Aug 2017 12:52:57 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:52:57 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:52:57 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:52:57 paper_url_spider.py[line:209] INFO papers:现代叙利亚政治体制的发展演变
+Mon, 21 Aug 2017 12:52:58 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:52:58 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '6'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:52:57', 'abstract': {'Chinese': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.'}, 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'authors': {'王振宁': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '现代叙利亚政治体制的发展演变', 'include': None, 'journal': '内蒙古民族大学学报'}
+Mon, 21 Aug 2017 12:52:58 clean.py[line:178] DEBUG {'abstract': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.', 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'institutions': '内蒙古民族大学政法与历史学院,内蒙古通辽,028043', 'quote': 0, 'spidertime': '2017-08-21 12:52:57', 'date': '2012, 18(6)', 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'authors': ['王振宁'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '现代叙利亚政治体制的发展演变', 'include': [], 'journal': '内蒙古民族大学学报'}
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:52:58 paper_url_spider.py[line:209] INFO papers:狮与熊：英俄悄悄搭建隐形G2
+Mon, 21 Aug 2017 12:52:59 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:52:59 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '7'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:52:58', 'abstract': {'Chinese': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。'}, 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'authors': {'应辰': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '狮与熊：英俄悄悄搭建隐形G2', 'include': None, 'journal': '环球财经'}
+Mon, 21 Aug 2017 12:52:59 clean.py[line:178] DEBUG {'abstract': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。', 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:52:58', 'date': '2012, (7)', 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'authors': ['应辰'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '狮与熊：英俄悄悄搭建隐形G2', 'include': [], 'journal': '环球财经'}
+Mon, 21 Aug 2017 12:52:59 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:52:59 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:52:59 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:52:59 paper_url_spider.py[line:209] INFO papers:叙利亚青年争当“逃兵”
+Mon, 21 Aug 2017 12:53:00 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:00 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '12'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:52:59', 'abstract': {'Chinese': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。'}, 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'authors': {'李洪声': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚青年争当“逃兵”', 'include': None, 'journal': '世界博览'}
+Mon, 21 Aug 2017 12:53:00 clean.py[line:178] DEBUG {'abstract': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:52:59', 'date': '2012, (12)', 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'authors': ['李洪声'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚青年争当“逃兵”', 'include': [], 'journal': '世界博览'}
+Mon, 21 Aug 2017 12:53:00 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:00 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:00 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:00 paper_url_spider.py[line:209] INFO papers:西方国家为何不向叙利亚动武？
+Mon, 21 Aug 2017 12:53:01 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:01 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '15'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:00', 'abstract': {'Chinese': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。'}, 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'authors': {'周二权': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '西方国家为何不向叙利亚动武？', 'include': None, 'journal': '中国经济周刊'}
+Mon, 21 Aug 2017 12:53:01 clean.py[line:178] DEBUG {'abstract': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:53:00', 'date': '2012, (15)', 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'authors': ['周二权'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '西方国家为何不向叙利亚动武？', 'include': [], 'journal': '中国经济周刊'}
+Mon, 21 Aug 2017 12:53:01 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:01 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:01 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:03 paper_url_spider.py[line:209] INFO papers:叙利亚阿萨德时期威权主义与政治稳定探析
+Mon, 21 Aug 2017 12:53:04 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:04 clean.py[line:177] DEBUG {'date': {'year': '2016', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:03', 'abstract': {'Chinese': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.'}, 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'authors': {'王新刚': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'include': ['ISTIC', 'PKU', 'CSSCI'], 'journal': '西北大学学报（哲学社会科学版）'}
+Mon, 21 Aug 2017 12:53:04 clean.py[line:178] DEBUG {'abstract': '1970年后叙利亚在阿萨德领导下,重树政治威权及其政治合法性,重建威权主义政治体制,借助意识形态控制以及务实的内外政策,实现了长达30年的政治稳定.但是,在阿萨德威权主义统治下,由于政治民主缺失,经济发展迟缓,阿拉维宗派主义专权以及地缘政治环境险恶等因素的交互作用,叙利亚又成为一个稳中有忧的国家.', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh201603002', 'institutions': '西北大学历史学院,陕西西安,710069', 'quote': 0, 'spidertime': '2017-08-21 12:53:03', 'date': '2016, 46(3)', 'keywords': ['阿萨德', '威权主义', '政治稳定', '意识形态', '宗派主义', '地缘政治'], 'authors': ['王新刚', '马帅'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚阿萨德时期威权主义与政治稳定探析', 'include': ['ISTIC', 'PKU', 'CSSCI'], 'journal': '西北大学学报（哲学社会科学版）'}
+Mon, 21 Aug 2017 12:53:04 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:04 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:04 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:04 paper_url_spider.py[line:209] INFO papers:阿拉伯复兴社会党及其理论与实践
+Mon, 21 Aug 2017 12:53:05 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:05 clean.py[line:177] DEBUG {'date': {'year': '2002', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'institutions': {}, 'quote': 3, 'spidertime': '2017-08-21 12:53:04', 'abstract': {'Chinese': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.'}, 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'authors': {'王新刚': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿拉伯复兴社会党及其理论与实践', 'include': ['PKU', 'CSSCI'], 'journal': '西北大学学报(哲学社会科学版)'}
+Mon, 21 Aug 2017 12:53:05 clean.py[line:178] DEBUG {'abstract': '阿拉伯复兴社会主义是战后中东阿拉伯世界颇具影响的政治理论思潮和政治运动,其理论与实践对当代叙利亚等国的国家和社会发展产生了十分深刻的影响.在它的主导下,叙利亚建立起一党制总统共和制政体,确立了国有、集体、私营经济成分并存的有计划的经济体制,并推动了国家与社会的现代化进程.', 'link': 'http://d.wanfangdata.com.cn/Periodical/xbdxxb-zxsh200203032', 'institutions': '西北大学,中东研究所,陕西,西安,710069', 'quote': 3, 'spidertime': '2017-08-21 12:53:04', 'date': '2002, 32(3)', 'keywords': ['复兴党', '复兴社会主义', '政治经济体制', '世俗化', '阿萨德'], 'authors': ['王新刚'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿拉伯复兴社会党及其理论与实践', 'include': ['PKU', 'CSSCI'], 'journal': '西北大学学报(哲学社会科学版)'}
+Mon, 21 Aug 2017 12:53:05 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:05 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:05 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:05 paper_url_spider.py[line:209] INFO papers:后殖民理论视域下的宗教学研究
+Mon, 21 Aug 2017 12:53:06 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:06 clean.py[line:177] DEBUG {'date': {'year': '2011', 'period': '5'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'institutions': {}, 'quote': 1, 'spidertime': '2017-08-21 12:53:05', 'abstract': {'Chinese': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.'}, 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'authors': {'朱晓红': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '后殖民理论视域下的宗教学研究', 'include': ['PKU', 'CSSCI'], 'journal': '复旦学报（社会科学版）'}
+Mon, 21 Aug 2017 12:53:06 clean.py[line:178] DEBUG {'abstract': '后殖民理论是一种带有鲜明的政治性和文化批判色彩的学术思潮,上世纪90年代应用在宗教学研究领域,提出了一些颇有争议的观点.后殖民批评家指出,宗教学的创立和基督教中心主义以及殖民主义的情怀不可分割,从奥托到伊利亚德的宗教比较研究中对“自成一类”(sui genre)宗教的特性的强调有很强的本质主义色彩,而目前盛行的多元宗教观也有西方意识形态霸权的因素.后殖民宗教学批评其实是对西方宗教学的发展做整体检讨,这些批评虽有偏颇,但对中国宗教学者理解宗教提供了某种启发性的思路,提醒我们要警惕那种所谓“中立”的全知化的研究方法,避免将宗教抽象为符号和静态的文本,而是要将其和具体处境结合起来,将信仰和实践、理论和生活关联起来,在研究中进行多学科的整合.宗教研究者需要不断自我反省和自我批评,排除习惯性的思维对宗教研究的干预和蒙蔽,坚守启蒙导向,警惕帝国主义和殖民话语,同时也要保留对宗教真理的同情,尊重不同进路的宗教研究.', 'link': 'http://d.wanfangdata.com.cn/Periodical/fdxb-shkxb201105012', 'institutions': '复旦大学哲学学院,上海,200433', 'quote': 1, 'spidertime': '2017-08-21 12:53:05', 'date': '2011, (5)', 'keywords': ['后殖民批评', '宗教学', '郭佩兰', '阿萨德', '多元论'], 'authors': ['朱晓红'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '后殖民理论视域下的宗教学研究', 'include': ['PKU', 'CSSCI'], 'journal': '复旦学报（社会科学版）'}
+Mon, 21 Aug 2017 12:53:06 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:06 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:06 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:06 paper_url_spider.py[line:209] INFO papers:试析叙利亚泛阿拉伯民族主义的演变
+Mon, 21 Aug 2017 12:53:07 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:07 clean.py[line:177] DEBUG {'date': {'year': '2000', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'institutions': {}, 'quote': 4, 'spidertime': '2017-08-21 12:53:06', 'abstract': {'Chinese': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.'}, 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'authors': {'赵克仁': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'include': ['CSSCI'], 'journal': '阿拉伯世界'}
+Mon, 21 Aug 2017 12:53:07 clean.py[line:178] DEBUG {'abstract': '叙利亚的泛阿拉伯民族主义主张阿拉伯人是一个民族共同体,目标是建立一个包括今天的叙利亚、黎巴嫩、巴勒斯坦、约旦、伊拉克、西奈半岛和塞浦路斯,称之为"新月沃地"的大叙利亚.该思想后得到叙利亚领导人阿萨德的贯彻执行.阿萨德作为一名谨慎的政治家,为了实现这一目标,首先试图建立一个由叙利亚、黎巴嫩、约旦和巴勒斯坦组成的、以他为首的联盟,然后通过这一联盟,巧妙地周旋于各方力量之间,在确立联盟的政治和军事战略方面发挥主导作用.', 'link': 'http://d.wanfangdata.com.cn/Periodical/albsj200003005', 'institutions': 'D371', 'quote': 4, 'spidertime': '2017-08-21 12:53:06', 'date': '2000, (3)', 'keywords': ['叙利亚', '泛阿拉伯民族主义', '阿萨德'], 'authors': ['赵克仁'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '试析叙利亚泛阿拉伯民族主义的演变', 'include': ['CSSCI'], 'journal': '阿拉伯世界'}
+Mon, 21 Aug 2017 12:53:07 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:07 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:07 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:07 paper_url_spider.py[line:209] INFO papers:阿萨德政治体制简析
+Mon, 21 Aug 2017 12:53:08 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:08 clean.py[line:177] DEBUG {'date': {'year': '2003', 'period': '3'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'institutions': {}, 'quote': 2, 'spidertime': '2017-08-21 12:53:07', 'abstract': {'Chinese': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.'}, 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'authors': {'王希': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿萨德政治体制简析', 'include': ['PKU', 'CSSCI'], 'journal': '西亚非洲'}
+Mon, 21 Aug 2017 12:53:08 clean.py[line:178] DEBUG {'abstract': '阿萨德时代(1970～2000年)是叙利亚当代史上的重要时期.在阿萨德统治期间,他运用军队、复兴党和官僚机构的力量,并通过对社会组织的强有力控制,建立起具有家长制色彩的一党制总统权威体制.靠这种政治体制,阿萨德将叙利亚从一个涣散弱小的国家改造成一个地区强国,并保持了长期的政治稳定.阿萨德政治体制是叙利亚社会历史自身发展的特殊产物,具有复杂性、混合性和过渡性的特征.一方面,该体制基本上适应了叙利亚社会发展的客观需要,具有一定的合法性与合理性;另一方面,该体制存在很大的局限性和弊端,为叙利亚未来的政治发展留下了负担.', 'link': 'http://d.wanfangdata.com.cn/Periodical/xyfz200303011', 'institutions': '中国社会科学院世界历史研究所', 'quote': 2, 'spidertime': '2017-08-21 12:53:07', 'date': '2003, (3)', 'keywords': ['叙利亚', '阿萨德', '政治体制'], 'authors': ['王希'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '阿萨德政治体制简析', 'include': ['PKU', 'CSSCI'], 'journal': '西亚非洲'}
+Mon, 21 Aug 2017 12:53:08 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:08 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:08 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:08 paper_url_spider.py[line:209] INFO papers:现代叙利亚政治体制的发展演变
+Mon, 21 Aug 2017 12:53:09 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:09 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '6'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:08', 'abstract': {'Chinese': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.'}, 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'authors': {'王振宁': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '现代叙利亚政治体制的发展演变', 'include': None, 'journal': '内蒙古民族大学学报'}
+Mon, 21 Aug 2017 12:53:09 clean.py[line:178] DEBUG {'abstract': '叙利亚是中东地区的政治大国,其政治体制的发展演变对阿拉伯世界有着深刻的影响.叙利亚政治体制的发展演变可谓一波三折,是多种力量相互斗争、妥协、融合的结果.现代叙利亚政治制度的确立起始于法国委任统治时期,期间发生了多次变革和动荡,但总体来看主要是两个阶段:议会民主制时期；复兴党领导下的威权主义时期.', 'link': 'http://d.wanfangdata.com.cn/Periodical/nmgmzdxxb-j201206002', 'institutions': '内蒙古民族大学政法与历史学院,内蒙古通辽,028043', 'quote': 0, 'spidertime': '2017-08-21 12:53:08', 'date': '2012, 18(6)', 'keywords': ['叙利亚', '政治体制', '复兴党', '阿萨德'], 'authors': ['王振宁'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '现代叙利亚政治体制的发展演变', 'include': [], 'journal': '内蒙古民族大学学报'}
+Mon, 21 Aug 2017 12:53:09 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:09 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:09 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:09 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:09 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:10 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:10 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:10 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:10 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:11 paper_url_spider.py[line:209] INFO papers:狮与熊：英俄悄悄搭建隐形G2
+Mon, 21 Aug 2017 12:53:12 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:12 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '7'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:11', 'abstract': {'Chinese': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。'}, 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'authors': {'应辰': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '狮与熊：英俄悄悄搭建隐形G2', 'include': None, 'journal': '环球财经'}
+Mon, 21 Aug 2017 12:53:12 clean.py[line:178] DEBUG {'abstract': '6月19日，正在墨西哥召开G20峰会的英国首相明确表示，英俄两国领导人已在叙利亚问题上达成共识，重新上任的俄罗斯总统普京已转变看法，希望叙利亚总统阿萨德下台，并在接下来的国际合作中将焦点移向政权和平交接。', 'link': 'http://d.wanfangdata.com.cn/Periodical/hqcj201207022', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:53:11', 'date': '2012, (7)', 'keywords': ['叙利亚总统', '隐形', '俄罗斯总统', '英国首相', '国际合作', '墨西哥', '领导人', '阿萨德'], 'authors': ['应辰'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '狮与熊：英俄悄悄搭建隐形G2', 'include': [], 'journal': '环球财经'}
+Mon, 21 Aug 2017 12:53:12 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:12 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:12 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:12 paper_url_spider.py[line:209] INFO papers:叙利亚青年争当“逃兵”
+Mon, 21 Aug 2017 12:53:13 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:13 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '12'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:12', 'abstract': {'Chinese': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。'}, 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'authors': {'李洪声': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚青年争当“逃兵”', 'include': None, 'journal': '世界博览'}
+Mon, 21 Aug 2017 12:53:13 clean.py[line:178] DEBUG {'abstract': '哈姆扎是一名叙利亚的商船船员，在18岁生日即将到来之际，他的命运轨迹似乎已经注定——开始为期一年半的强制兵役。但那时叙国内发生了严重的社会动荡：从去年3月开始，叙利亚全国爆发了反对现任总统巴沙尔·阿萨德的示威抗议活动，民众走上街头呼吁政治变革。随后，政府军对示威者开枪，并炮轰叙反对派所在的城镇，造成成千上万人的死亡。', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201212018', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:53:12', 'date': '2012, (12)', 'keywords': ['叙利亚', '青年', '社会动荡', '抗议活动', '政治变革', '阿萨德', '巴沙尔', '反对派'], 'authors': ['李洪声'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚青年争当“逃兵”', 'include': [], 'journal': '世界博览'}
+Mon, 21 Aug 2017 12:53:13 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:13 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:13 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:13 paper_url_spider.py[line:209] INFO papers:西方国家为何不向叙利亚动武？
+Mon, 21 Aug 2017 12:53:14 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:14 clean.py[line:177] DEBUG {'date': {'year': '2012', 'period': '15'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:13', 'abstract': {'Chinese': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。'}, 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'authors': {'周二权': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '西方国家为何不向叙利亚动武？', 'include': None, 'journal': '中国经济周刊'}
+Mon, 21 Aug 2017 12:53:14 clean.py[line:178] DEBUG {'abstract': '继利比亚战争结束，卡扎菲政权瓦解后，叙利亚政府遭遇危机。以美国为代表的西方国家就采取多管齐下的行动，大有一举推翻叙利亚巴沙尔·阿萨德政权之势。', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201215010', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:53:13', 'date': '2012, (15)', 'keywords': ['西方国家', '叙利亚', '利比亚', '卡扎菲', '阿萨德', '巴沙尔', '政权', '政府'], 'authors': ['周二权'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '西方国家为何不向叙利亚动武？', 'include': [], 'journal': '中国经济周刊'}
+Mon, 21 Aug 2017 12:53:14 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:14 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:14 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:16 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:16 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:16 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:16 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:16 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:16 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:16 paper_url_spider.py[line:209] INFO papers:孤城叙利亚“：总统滚蛋”不重要
+Mon, 21 Aug 2017 12:53:17 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:17 clean.py[line:177] DEBUG {'date': {'year': '2011', 'period': '46'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201146013', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:16', 'abstract': {'Chinese': '从3月18日叙利亚军警在德拉省逮捕涂写抗议标语的中学生开始,一直强大无比的执政党复兴社会党和拥众20万的叙利亚军队已经声誉扫地、面目可憎。举目四望,叙利亚已经是海湾孤城。总统巴沙尔·阿萨德困顿于大马士革形若囚徒：所谓＂战斗到死＂,究竟缘于勇敢还是恐惧,又有谁能分得清呢？今天的叙利亚政府,除了伊朗和俄罗斯的有限支持外,'}, 'keywords': ['叙利亚', '总统', '复兴社会党', '大马士革', '中学生', '执政党', '阿萨德', '巴沙尔'], 'authors': {'于海洋': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '孤城叙利亚“：总统滚蛋”不重要', 'include': None, 'journal': '中国经济周刊'}
+Mon, 21 Aug 2017 12:53:17 clean.py[line:178] DEBUG {'abstract': '从3月18日叙利亚军警在德拉省逮捕涂写抗议标语的中学生开始,一直强大无比的执政党复兴社会党和拥众20万的叙利亚军队已经声誉扫地、面目可憎。举目四望,叙利亚已经是海湾孤城。总统巴沙尔·阿萨德困顿于大马士革形若囚徒：所谓＂战斗到死＂,究竟缘于勇敢还是恐惧,又有谁能分得清呢？今天的叙利亚政府,除了伊朗和俄罗斯的有限支持外,', 'link': 'http://d.wanfangdata.com.cn/Periodical/zgjjzk201146013', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:53:16', 'date': '2011, (46)', 'keywords': ['叙利亚', '总统', '复兴社会党', '大马士革', '中学生', '执政党', '阿萨德', '巴沙尔'], 'authors': ['于海洋'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '孤城叙利亚“：总统滚蛋”不重要', 'include': [], 'journal': '中国经济周刊'}
+Mon, 21 Aug 2017 12:53:17 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:17 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:17 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:17 paper_url_spider.py[line:209] INFO papers:叙利亚：未来向何处去
+Mon, 21 Aug 2017 12:53:18 clean.py[line:176] DEBUG clean fail
+Mon, 21 Aug 2017 12:53:18 clean.py[line:177] DEBUG {'date': {'year': '2011', 'period': '20'}, 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201120010', 'institutions': {}, 'quote': 0, 'spidertime': '2017-08-21 12:53:17', 'abstract': {'Chinese': '10月4日，联合国安理会投票表决由法英美葡德五国提出的、针对叙利亚阿萨德政权的谴责决议，因俄罗斯与中国行使否决权而未能通过。除俄中两国外，巴西、印度、南非、黎巴嫩均投了弃权票。'}, 'keywords': ['叙利亚', '联合国安理会', '投票表决', '阿萨德', '否决权', '俄罗斯', '弃权票', '黎巴嫩'], 'authors': {'陶短房': {}}, 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚：未来向何处去', 'include': None, 'journal': '世界博览'}
+Mon, 21 Aug 2017 12:53:18 clean.py[line:178] DEBUG {'abstract': '10月4日，联合国安理会投票表决由法英美葡德五国提出的、针对叙利亚阿萨德政权的谴责决议，因俄罗斯与中国行使否决权而未能通过。除俄中两国外，巴西、印度、南非、黎巴嫩均投了弃权票。', 'link': 'http://d.wanfangdata.com.cn/Periodical/sjbl201120010', 'institutions': '不详', 'quote': 0, 'spidertime': '2017-08-21 12:53:17', 'date': '2011, (20)', 'keywords': ['叙利亚', '联合国安理会', '投票表决', '阿萨德', '否决权', '俄罗斯', '弃权票', '黎巴嫩'], 'authors': ['陶短房'], 'url': 'http://s.wanfangdata.com.cn/Paper.aspx?q= 关键词:阿萨德', 'title': '叙利亚：未来向何处去', 'include': [], 'journal': '世界博览'}
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:220] DEBUG 'NoneType' object is not iterable
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:221] DEBUG None
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:222] DEBUG 插入数据库失败...
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:18 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:154] DEBUG list index out of range
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:153] DEBUG 论文解析失败..
+Mon, 21 Aug 2017 12:53:19 paper_url_spider.py[line:154] DEBUG list index out of range

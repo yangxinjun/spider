@@ -1,7 +1,7 @@
 # -*- coding:utf8 -*-
 import sys,pprint
-from mongo import mongoConnection
-from python.setting import *
+from web.mongo import mongoConnection
+from web.python.setting import *
 import requests
 from lxml import html
 import re,time,datetime
