@@ -166,16 +166,17 @@ def sina_url_spider(content,socketio=None):
 				socketio.sleep(1)
 			response = requests.get(url)
 			if response.status_code!=200: return None
-			result = [{"videoname":re.compile(r'(<.*?>)').sub("",x.get("videoname")),
+			result = [{"title":re.compile(r'(<.*?>)').sub("",x.get("videoname")),
 						"url":x.get("url"),
 						"showtime":x.get("showtime"),
- 						"videoinfo":x.get("videoinfo"),
+ 						"info":x.get("videoinfo"),
 						"playtimes":x.get("playtimes"),
 						"spidertime":time.strftime( '%Y-%m-%d %X', time.localtime()),
 						"site":"sina",
-						"content":content,
+						"keyword":content,
 						"status":1 } for x in response.json()["list"]]
 			mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
+			print(result)
 			try:
 				infomation_id = mongoDB.collection.insert_many(result, ordered=False)
 				mongoDB.db['spider'].update({'site':'sina','content':content},{'$set':{'inactive':0}})

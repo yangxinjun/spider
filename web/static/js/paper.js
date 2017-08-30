@@ -361,6 +361,7 @@ $(document).ready(function() {
     $('#disconnect').on('click', function() {
         connect_tag = false;
         socket.disconnect();
+//        socket.emit('disconnect')
         $("#disconnect").attr("disabled", true); 
 
     });

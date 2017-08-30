@@ -214,7 +214,8 @@ def click(url,socketio=None,proxy=False):
 						socketio.sleep(1)
 					try:
 						papers['url'] = url
-						papers = clean.clean(papers) #按照规定格式格式化
+						print(papers)
+						# papers = clean.clean(papers) #按照规定格式格式化
 						mongo.collection.insert(papers)
 
 					except Exception as e:

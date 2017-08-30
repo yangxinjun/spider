@@ -101,7 +101,10 @@ def __date_clean__(date,**kwargs):
 
 
 def __location_clean__(institution,**kwargs):
+	print("eeeeeeee")
 	city_list = read_city()
+	print(city_list)
+	print("fffffff")
 	institution = institution.decode('utf-8')
 	institution = institution.split(';')[0]
 	city = [x for x in city_list if x in institution]
@@ -111,20 +114,32 @@ def __location_clean__(institution,**kwargs):
 
 
 def read_city(fname='city.txt'):
+	print("kkkkk1aak")
 	fname = os.path.join( '/'.join(path[:-1]),fname)
 	#Return all city's name in China
+	print("qqqqqqq")
 	file = open(fname,"r")
+	print("hhhhhhh")
 	name_list = file.readlines()
+	print("pppppppp1p")
+	print(name_list)
 	file.close()
 	names = set()
 	for line in name_list:
+		print("1111111")
 		line = line.strip("\r\n").strip().split(' ')[1]
+		print("222222")
 		line = line.split('省')
+		print("3333331")
 		# print(line)
 		if len(line)==1:
+			print("444444")
 			line = line[0].split('区')
+			print("5555555")
 		line = line[-1].split('市')[0]
+		print("666666")
 		names.add(line)
+		print("7777777")
 	return names
 
 def clean(line):
@@ -155,7 +170,9 @@ def clean(line):
 			for x in range(min(len(line['institutions']),len(line['authors']))):
 				institution = __institution_clean__(line['institutions'][x].encode("utf-8"), standard_names=standard_names)
 				# problem
+				print("aaaaaa")
 				locate = __location_clean__(line['institutions'][x].encode("utf-8"))
+				print("bbbbb")
 				temp['authors'][line['authors'][x]] = {}
 				temp['authors'][line['authors'][x]]['institution'] = institution
 				temp['authors'][line['authors'][x]]['location'] = locate
@@ -163,7 +180,9 @@ def clean(line):
 		else:
 			temp['authors'][line['authors'][0]] = {}
 			institution =  __institution_clean__(line['institutions'].encode("utf-8"), standard_names=standard_names)
+			print("ccccccc")
 			locate = __location_clean__(line['institutions'].encode("utf-8"))
+			print("dadddd")
 			for x in line['authors']:
 				temp['authors'][x] = {}
 				temp['authors'][x]['institution'] = institution

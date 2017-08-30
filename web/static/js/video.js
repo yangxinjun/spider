@@ -352,8 +352,7 @@ $(document).ready(function() {
     }
     $('#disconnect').on('click', function() {
         connect_tag = false;
-//        socket.disconnect();
-        socket.emit('disconnect');
+        socket.disconnect();
         $("#disconnect").attr("disabled", true); 
 
     });

@@ -58,6 +58,7 @@ def main():
 	# 		logger.debug(e)
 	# 		continue
 	i = 0
+	sum = 0
 	for x in urls:
 
 		if i <= 99:
@@ -68,8 +69,9 @@ def main():
 				if func == sina:
 					print("1333333")
 					# info, size = sina.download(x['url'], output_dir)
-					sina.download(x['url'], output_dir)
-					print("99999999999999999")
+					size = sina.download(x['url'], output_dir)
+					sum = sum + size
+					print("99999999999999999"+size)
 					# collection.update({"url": x['url']}, {
 					# 	"$set": {'tag': info[0], 'introduction': info[1], 'from': info[2], 'channel': info[3],
 					# 			 'size': size, 'status': 0}})
