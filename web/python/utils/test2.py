@@ -56,12 +56,12 @@ def export_video():
 				if func==sina:
 
 					# info, size = sina.download(x['url'], output_dir)
-					size = sina.download(x['url'], output_dir)
-					size = round(size, 2)
-					print("11111111111")
-					sum =sum +size
-					print(sum)
-					print(i)
+					# size = sina.download(x['url'], output_dir)
+					# size = round(size, 2)
+					# print("11111111111")
+					# sum =sum +size
+					# print(sum)
+					# print(i)
 					i = i + 1
 					# collection.update({"url": x['url']}, {"$set": {'spider_time': today,'title_on':x['title'],'site_name_cn':x['site_name'],'info_cn':x['info']}})
 					# collection.
@@ -114,15 +114,15 @@ def export_video():
 				# continue
 		else:
 			break
-	i = i-1
-	print(sum)
-	sum = str(sum)
-	sum = sum +"M"
-	task = {"title":title,"time":today,"keywords":title,"file_number":i,"file_size":sum}
-	f = open(output_dir+'task_info.json', 'w+')
-	task = json.dumps(task)
-	f.write(task)
-	f.close()
+	# i = i-1
+	# print(sum)
+	# sum = str(sum)
+	# sum = sum +"M"
+	# task = {"title":title,"time":today,"keywords":title,"file_number":i,"file_size":sum}
+	# f = open(output_dir+'task_info.json', 'w+')
+	# task = json.dumps(task)
+	# f.write(task)
+	# f.close()
 	print("11111111111111111111111")
 		#add or change collection's field
 
