@@ -35,14 +35,16 @@ def initial_spider():
 
 def api_video_detail(content, site):
 	mongo = mongoConnection.mongoConnection(db='video',collection='urlinfo')
-	info = mongo.collection.find({'content':content,'site':site},{'_id':0})
+	# 修改了关键字content
+	info = mongo.collection.find({'keyword':content,'site_name':site},{'_id':0})
 	info = [x for x in info]
 	return {'info':info}
 
 def api_video_gragh(content, site):
 	mongo = mongoConnection.mongoConnection(db='video',collection='urlinfo')
-	info = mongo.collection.find({'content':content,'site':site},{'spidertime':1})
-	info = dict(collections.Counter([str(x['spidertime'].split(' ')[0]) for x in info]))
+	# 修改了关键字content
+	info = mongo.collection.find({'keyword':content,'site_name':site},{'spider_time':1})
+	info = dict(collections.Counter([str(x['spider_time'].split(' ')[0]) for x in info]))
 	#time
 	oneday = datetime.timedelta(days=1) 
 	now = datetime.date.today()
@@ -65,7 +67,8 @@ def api_delete_task(content,site,time):
 		_ = mongo.collection.remove({'content':content,'site':site,'time':time})
 		#delete urlinfo information
 		mongo = mongoConnection.mongoConnection(db='video',collection='urlinfo')
-		_ = mongo.collection.remove({'content':content,'site':site})
+		# 修改了关键字content
+		_ = mongo.collection.remove({'keyword':content,'site_name':site})
 		return 0
 	except Exception as e:
 		return -1

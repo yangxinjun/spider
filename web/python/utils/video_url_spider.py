@@ -168,11 +168,11 @@ def sina_url_spider(content,socketio=None):
 			if response.status_code!=200: return None
 			result = [{"title":re.compile(r'(<.*?>)').sub("",x.get("videoname")),
 						"url":x.get("url"),
-						"showtime":x.get("showtime"),
+						"upload_time":x.get("showtime")[0:10],
  						"info":x.get("videoinfo"),
-						"playtimes":x.get("playtimes"),
-						"spidertime":time.strftime( '%Y-%m-%d %X', time.localtime()),
-						"site":"sina",
+						"play_count":x.get("playtimes"),
+						"spider_time":time.strftime( '%Y-%m-%d %X', time.localtime()),
+						"site_name":"sina",
 						"keyword":content,
 						"status":1 } for x in response.json()["list"]]
 			mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')

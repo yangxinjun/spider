@@ -215,11 +215,11 @@ $(document).ready(function() {
             scrollY: 500,
             "bDeferRender": true,
             columns: [
-                { data: "videoname" },
-                { data: "showtime" },
-                { data: "videoinfo" },
-                { data: "spidertime" },
-                { data: "playtimes" },
+                { data: "title" },
+                { data: "upload_time" },
+                { data: "info" },
+                { data: "spider_time" },
+                { data: "play_count" },
                 { data: "more" }
 
             ]
