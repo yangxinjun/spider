@@ -174,6 +174,7 @@ def sina_url_spider(content,socketio=None):
 						"spider_time":time.strftime( '%Y-%m-%d %X', time.localtime()),
 						"site_name":"sina",
 						"keyword":content,
+						"keywords":content,
 						"status":1 } for x in response.json()["list"]]
 			mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
 			print(result)

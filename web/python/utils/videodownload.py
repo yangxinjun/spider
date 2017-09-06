@@ -36,22 +36,25 @@ def export_video():
 	collection = db[COLLECTION]
 	today = datetime.date.today()
 	today = today.strftime('%Y-%m-%d')
-	today = "2017-08-31"
+	# today = "2017-08-31"
 	# urls = collection.find({'content':'特朗普','status':{'$ne':0}},{'url':1,'site':1,'videoname':1})
 	# urls = collection.find({'keyword': '文在寅', 'status': {'$ne': 0}},{"_id":0,"status":0})
-	urls = collection.find({'site_name_cn':{"$exists": 1},'title_cn':{"$exists": 1},'keywords': '文在寅', 'status': {'$ne': 0}}, {"_id": 0, "status": 0,"keyword":0})
+	urls = collection.find({'keywords': '文在寅', 'status': {'$ne': 0}}, {"_id": 0, "status": 0,"keyword":0})
 	print (type(urls))
 	print(urls)
 	output_dir = "../../static/视频抓取/文在寅/"+today+"/"
 	makepath.mkdir(output_dir)
 	print(output_dir)
+	filename = open(output_dir + "文在寅.txt", 'w+')
 	func_dict = {'sina':sina,'qq':qq,'iqiyi':iqiyi,'acfun':acfun,'cntv':cntv,'ifeng':ifeng,'bilibili':bilibili,'youku':youku,'tudou':tudou,'sohu':sohu}
 	i = 0
 	title = ""
 	sum = 0
 	for x in urls:
 		print(x)
-		if i <= 97:
+		filename.write(x['title'])
+		filename.write('\n')
+		if i <= 95:
 			try:
 				func = func_dict[x['site_name']]
 				if func==sina:
@@ -64,7 +67,33 @@ def export_video():
 					print(sum)
 					print(i)
 					i = i + 1
-					# collection.update({"url": x['url']}, {"$set": {'spider_time': today,'title_on':x['title'],'site_name_cn':x['site_name'],'info_cn':x['info']}})
+					print(x['upload_time'])
+					# upload_time = x['upload_time'][0:10]
+					x['spider_time'] = today
+					print("1111")
+					# x['upload_time'] = upload_time
+					x['keywords'] = [x['keywords']]
+					print("22222")
+					x['title_cn'] = x['title']
+					print("3333")
+					x['site_name_cn'] = x['site_name']
+					print("44444")
+					x['info_cn'] = x['info']
+					print("5555")
+					print(x)
+					y = x
+					# x = str(x) 字典id不是json序列，所以去掉id项
+					x = json.dumps(x)
+					print(x)
+					title = y['keywords']
+					outfile = open(output_dir + y['title'] + '.json', 'w+')
+					outfile.write(x)
+					outfile.write('\n')
+					time.sleep(random.random())
+					outfile.close()
+					# collection.update({"url": x['url']}, {"$set": {'spider_time': today, 'upload_time': upload_time, 'keywords': [x['keyword']],'title_cn': x['title'], 'site_name_cn': x['site_name'], 'info_cn': x['info']}})
+
+				# collection.update({"url": x['url']}, {"$set": {'spider_time': today,'title_on':x['title'],'site_name_cn':x['site_name'],'info_cn':x['info']}})
 					# collection.
 					# earn.earn(x)
 					# collection.update({"url": x['url']}, {"$set": {'status': 0,'spidertime':today}})
@@ -98,17 +127,17 @@ def export_video():
 				# print(t)
 				# print("oooooooo")
 				# for x in t:
-				print(x)
-				y = x
-				# x = str(x) 字典id不是json序列，所以去掉id项
-				x=json.dumps(x)
-				print(x)
-				title = y['keywords']
-				outfile = open(output_dir + y['title'] + '.json', 'w+')
-				outfile.write(x)
-				outfile.write('\n')
-				time.sleep(random.random())
-				outfile.close()
+				# print(x)
+				# y = x
+				# # x = str(x) 字典id不是json序列，所以去掉id项
+				# x=json.dumps(x)
+				# print(x)
+				# title = y['keywords']
+				# outfile = open(output_dir + y['title'] + '.json', 'w+')
+				# outfile.write(x)
+				# outfile.write('\n')
+				# time.sleep(random.random())
+				# outfile.close()
 			except Exception as e:
 				print("hghjgjghjgjgjghj")
 				print(e)

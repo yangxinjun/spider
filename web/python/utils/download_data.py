@@ -60,6 +60,7 @@ def export_video():
 					upload_time = x['upload_time'][0:10]
 					print(upload_time)
 					collection.update({"url": x['url']}, {"$set": {'spider_time': today,'upload_time':upload_time,'keywords':[x['keyword']],'title_cn':x['title'],'site_name_cn':x['site_name'],'info_cn':x['info']}})
+					print("000000000000000")
 				elif func == iqiyi:
 					# iqiyi.download(x['url'], output_dir)
 					collection.update({"url":x['url']},{"$set":{'status':0}})
